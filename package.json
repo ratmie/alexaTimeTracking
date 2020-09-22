@@ -1,0 +1,26 @@
+{
+  "name": "alexaAttend",
+  "version": "1.0.0",
+  "description": "track time for attendance",
+  "main": "index.js",
+  "author": "takegata jumpei <takegata.j@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src/**/*.ts --fix "
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "ask-sdk": "^2.9.0",
+    "husky": "^4.3.0",
+    "typescript": "^4.0.3",
+    "yarn": "^1.22.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  }
+}
